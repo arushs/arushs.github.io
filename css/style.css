@@ -1,14 +1,92 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
+body, html
+{
+	background-color: #EDEDED !important;
+}
+
+.intro
+{
+	text-align: center;
+	padding-top: 13%;
+	padding-bottom: 13%;
+	margin-bottom: 50px;
+}
+
+.intro h1
+{
+	padding-top:3%;
+	font-weight: 500;
+}
+
+.intro h5
+{
+	padding-bottom: 5%;
+	color: #fff;
+	display: inline-block;
+/*	font-size: 1.2rem;*/
+}
+
+.intro div {
+width:45%;
+background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	.intro h1
+		{
+			padding-top:3%;
+			font-weight: 500;
+			font-size:3em;
+		}
+
+		.intro h5
+		{
+			padding-bottom: 5%;
+			font-size:1.5em;
+			color: #fff;
+			display: inline-block;
+		/*	font-size: 1.2rem;*/
+		}
+}
+
+.about .col
+{
+    margin-bottom: 24px;
+}
+
+.about h5
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about h6
+{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+}
+.about p {
+	padding-left: 8%;
+	padding-right:8%;
+}
+
+.about .card
+{
+    text-align: center;
+}
+
+.cardBottom {
+	padding-left: 7%;
+}
+
