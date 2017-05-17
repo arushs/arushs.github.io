@@ -1,7 +1,10 @@
 .home{
   text-align: center;
-  width:30%;
   padding-top: 3%;
+}
+
+.main-image {
+  width:30%;
 }
 
 .projects {
