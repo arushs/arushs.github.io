@@ -1,0 +1,15 @@
+.home{
+  text-align: center;
+  width:30%;
+  padding-top: 3%;
+}
+
+.projects {
+  background: #E8E8E8;
+}
+
+.card .card-image .card-size{
+  width:65%;
+  left: 17.5%;
+  padding-top:3%;
+}
