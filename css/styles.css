@@ -27,9 +27,30 @@ a {
 }
 
 .card .card-image .card-size{
-  width:65%;
-  left: 17.5%;
+  width:55%;
+  left: 22.5%;
   padding-top:3%;
+}
+
+.card .card-image .blackbird-image{
+  width:55%;
+  left: 22.5%;
+  padding-top:7.5%;
+}
+
+
+.card .card-image .polly-image {
+  width: 15%;
+  margin-left: 42.5%;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+.card .card-image .trojanviews-image {
+  width:55%;
+  left: 22.5%;
+  padding-top:15%;
+  padding-bottom: 5%;
 }
 
 body {
