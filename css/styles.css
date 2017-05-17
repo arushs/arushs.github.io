@@ -7,12 +7,39 @@
   width:30%;
 }
 
+.main-text {
+  width:50%;
+  margin-left:25%;
+  text-align: center;
+}
+
 .projects {
   background: #E8E8E8;
+  height:100%;
+}
+
+a {
+  color: black;
+}
+
+.projects-main {
+  padding-top: 3%;
 }
 
 .card .card-image .card-size{
   width:65%;
   left: 17.5%;
   padding-top:3%;
+}
+
+body {
+    border: 1px solid transparent;
+}
+
+@media (max-width: 600px) {
+  .main-text {
+    width:75%;
+    margin-left:12.5%;
+    text-align: center;
+  }
 }
