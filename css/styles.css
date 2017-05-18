@@ -1,3 +1,7 @@
+.logo {
+  margin-left: 1%;
+}
+
 .home{
   text-align: center;
   padding-top: 3%;
@@ -16,6 +20,10 @@
 .projects {
   background: #E8E8E8;
   height:100%;
+}
+
+.project-logo {
+  text-align: center;
 }
 
 a {
@@ -63,4 +71,22 @@ body {
     margin-left:12.5%;
     text-align: center;
   }
+
+  .logo {
+    margin-left: 0%;
+  }
+}
+
+.contact {
+  height:100%;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.icon {
+  padding-left: 1%;
+  padding-right: 1%;
 }
